@@ -1,0 +1,19 @@
+@relation contact_lenses
+@attribute age {9,14,10,22,27,49,34,18,40}
+@attribute problem {myopia,hyperopia,presbyopia}
+@attribute power-type {single-vision,bifocal}
+@attribute contact-lenses {soft,hard,none}
+@attribute antiglare {yes,no}
+@data
+%
+9,myopia,single-vision,none,yes
+14,myopia,single-vision,soft,no
+10,myopia,single-vision,none,yes
+22,myopia,bifocal,none,yes
+27,hyperopia,single-vision,none,no
+49,hyperopia,single-vision,hard,yes
+34,presbyopia,bifocal,hard,yes
+18,myopia,single-vision,none,yes
+40,presbyopia,single-vision,none,no
+
+%

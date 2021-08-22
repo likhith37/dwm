@@ -1,0 +1,17 @@
+@relation 'labor'
+@attribute 'name' real
+@attribute 'age' real
+@attribute 'education' {'yes','no'}
+@attribute 'workinghrs' {<8,=8,>8}
+@attribute 'salary' real
+@data
+%
+
+10,25,'no',<8,8000
+15,37,'yes',>8,17000
+20,33,'no',>8,13000
+25,29,'yes',<8,7000
+30,27,'yes',=8,19000
+
+
+%

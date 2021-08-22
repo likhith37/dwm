@@ -1,0 +1,19 @@
+@relation 'weather'
+@attribute 'temperature' real
+@attribute 'wind speed' real
+@attribute 'pressure' {<1000,1000-1100,>1100}
+@attribute 'humidity' {<50,50-80,>80}
+@attribute 'rainfall' {'true','false'}
+@attribute 'visibility' {0,1-5,5-10,>10}
+@data
+%
+
+20,4,<1000,<50,'false',1-5
+25,0,>1100,<50,'false',1-5
+14,7,<1000,50-80,'false',0
+41,10,1000-1100,>80,'false',>10
+27,3,<1000,50-80,'false',1-5
+18,9,>1100,<50,'true' ,5-10
+0,0,<1000,>80,'false',5-10
+
+%

@@ -1,0 +1,20 @@
+@relation employee
+@attribute empid {1,2,3,4,5,6,7,8,9,10}
+@attribute salary {<20000,20000-50000,>50000}
+@attribute age {<25,25-35,35-45,>45}
+@attribute overtime {yes,no}
+@attribute bonus {yes,no}
+@attribute working_hours {5,6,7,8,9,10}
+@data
+%
+1,<20000,<25,yes,no,8
+2,20000-50000,<25,yes,no,8
+3,>50000,>45,no,yes,5
+4,<20000,<25,yes,no,9
+5,20000-50000,25-35,yes,yes,10
+6,>50000,>45,yes,yes,6
+7,20000-50000,35-45,yes,no,9
+8,<20000,<25,no,no,7
+9,>50000,35-45,no,yes,9
+10,20000-50000,25-35,no,yes,8
+%

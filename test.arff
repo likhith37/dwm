@@ -1,0 +1,14 @@
+@relation test 
+@attribute admissionyear {2016,2017,2018,2019,2020} 
+@attribute branch {cse,ece,me,eee,ce,it} 
+@attribute gpa {7-8,8-9,9-9.5,9.5-10}
+@data 
+%
+2016,ece,8-9
+2018,cse,9-9.5
+2018,cse,9.5-10
+2017,me,7-8
+2017,ece,8-9
+2019,it,8-9
+2016,cse,8-9
+%
